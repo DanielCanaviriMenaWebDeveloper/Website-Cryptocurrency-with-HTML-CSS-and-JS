@@ -1,0 +1,5 @@
+@media (min-width: 1169px) and (max-width: 1364px) {
+    .cryptozen_menu ul li a {
+        padding: 35px 4px;
+    }
+}

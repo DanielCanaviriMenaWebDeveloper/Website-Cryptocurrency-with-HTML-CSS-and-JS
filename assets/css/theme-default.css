@@ -42,9 +42,51 @@ a {
     color: #fff;
 }
 
+/* 77 */
+.cryptozen_menu ul {
+    display: inline-block;
+}
+
+/* 80 */
+.cryptozen_menu ul li {
+    list-style: none;
+    display: inline;
+    position: relative;
+
+    background: royalblue;
+}
+
+/* 85 */
+.cryptozen_menu ul li a {
+    display: inline-block;
+    font-size: 15px;
+    padding: 36px 14px;
+    text-transform: capitalize;
+    transition: .5s;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* 110 */
+nav.cryptozen_menu {
+    float: right;
+}
+
 /* 114 */
 a.stiky-logo img {
     display: none;
+}
+
+/* 207 */
+.cryptozen_menu li {
+    padding-bottom: 48px;
+}
+
+/* 719 */
+ul {
+    margin: 0;
+    padding: 0;
 }
 
 /* 742 */
