@@ -1,7 +1,44 @@
+/* 95 */
+.cryptozen_menu ul li a:hover {
+    color: #37A3FE;
+}
+
+/* 141 */
+.header-src-btn {
+    display: inline-block;
+    padding-right: 14px;
+}
+
+/* 145 */
+.nav-btn.navSidebar-button {
+    display: inline-block;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+    top: 3px;
+}
+
 /* 5353 */
 .sidebar {
     display: inline-block;
     position: relative;
     left: 13px;
     top: 7px;
+}
+
+/* 5523 */
+.header-src-btn {
+    display: inline-block;
+    position: relative;
+    top: -3px;
+}
+
+/* 5528 */
+.search-box-btn.search-box-outer i {
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
 }
