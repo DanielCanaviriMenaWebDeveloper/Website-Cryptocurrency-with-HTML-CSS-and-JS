@@ -19,6 +19,52 @@
     top: 3px;
 }
 
+/* 587 */
+.slider-area.style-five {
+    background: url(assets/images/new/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    position: relative;
+    z-index: 1;
+}
+
+/* 596 */
+.slider-area.style-five::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(3, 3, 65, .7);
+    z-index: 2;
+}
+
+/* 629 */
+.slider-area.style-five .slider-content h4 {
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    margin: 0 0 30px;
+    z-index: 1;
+    left: 19px;
+}
+
+/* 650 */
+.slider-area.style-five .slider-content h4::before {
+    position: absolute;
+    content: "";
+    top: -10px;
+    left: -20px;
+    height: 46px;
+    width: 54%;
+    background: #06206D;
+    z-index: -1;
+    border-radius: 30px;
+}
+
 /* 5353 */
 .sidebar {
     display: inline-block;
