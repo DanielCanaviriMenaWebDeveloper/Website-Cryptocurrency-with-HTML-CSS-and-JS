@@ -66,6 +66,55 @@
     border-radius: 30px;
 }
 
+/* 376 */
+.slider-button a:hover::after {
+    left: 0;
+    width: 100%;
+}
+
+/* 383 */
+.slider-btn {
+    display: inline-block;
+}
+
+/* 386 */
+.slider-btn a {
+    display: inline-block;
+    border: 1px solid #525578;
+    padding: 15px 37px;
+    font-family: 'Inter';
+    font-size: 15px;
+    transition: .5s;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+/* 398 */
+.slider-btn a::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0;
+    background: #fff;
+    transition: .6s;
+    z-index: -1;
+    border-radius: 30px;
+}
+
+/* 410 */
+.slider-btn a:hover::after {
+    left: 0;
+    width: 100%;
+}
+
+.slider-btn a:hover {
+    color: #0194FC;
+}
+
 /* 587 */
 .slider-area.style-five {
     background: url(assets/images/new/hero.jpg);
@@ -152,13 +201,63 @@ span.other {
     z-index: 22;
 }
 
+/* 676 */
+.slider-area.style-five .slider-button a i {
+    margin-right: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+/* 681 */
+.slider-area.style-five .slider-button a i::after {
+    position: absolute;
+    content: "";
+    top: -3px;
+    left: -7px;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 100%;
+    transition: .5s;
+}
+
 /* 694 */
 .slider-button a:hover {
     color: #0194FC;
 }
 
+.slider-button a:hover i::after {
+    border-color: #37A3FE !important; 
+}
+
 /* 700 */
 .slider-area.style-five .slider-button a::after {
+    border-radius: 5px;
+}
+
+/* 703 */
+.slider-area.style-five .slider-btn a i {
+    margin-right: 5px;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    background: #0194FB;
+    border-radius: 100%;
+    font-size: 13px;
+    display: inline-block;
+    text-align: center;
+    transition: .5s;
+}
+
+/* 718 */
+.slider-area.style-five .slider-btn a {
+    border-radius: 5px;
+}
+
+/* 721 */
+.slider-area.style-five .slider-btn a::after {
     border-radius: 5px;
 }
 
