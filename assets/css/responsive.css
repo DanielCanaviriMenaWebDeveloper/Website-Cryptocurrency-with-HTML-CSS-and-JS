@@ -10,3 +10,18 @@
         font-size: 51px;
     }
 }
+
+/* 214 */
+@media (min-width: 1169px) and (max-width: 1364px) {
+    .slider-area.style-five .slider-thumb {
+        left: 18%;
+    }
+}
+
+/* 220 */
+@media (min-width: 1169px) and (max-width: 1364px) {
+    .slider-area.style-five .hero-shape {
+        top: -22%;
+        left: -22%;
+    }
+}

@@ -115,6 +115,19 @@
     color: #0194FC;
 }
 
+/* 417 */
+.slider-thumb {
+    position: relative;
+    z-index: 1;
+}
+
+/* 433 */
+.hero-shape {
+    position: absolute;
+    top: 26%;
+    left: 10%;
+}
+
 /* 587 */
 .slider-area.style-five {
     background: url(assets/images/new/hero.jpg);
@@ -251,6 +264,11 @@ span.other {
     transition: .5s;
 }
 
+/* 715 */
+.slider-area.style-five .slider-btn a:hover i {
+    color: #fff !important;
+}
+
 /* 718 */
 .slider-area.style-five .slider-btn a {
     border-radius: 5px;
@@ -259,6 +277,29 @@ span.other {
 /* 721 */
 .slider-area.style-five .slider-btn a::after {
     border-radius: 5px;
+}
+
+/* 725 */
+.slider-area.style-five .slider-thumb {
+    left: 30%;
+    top: 15px;
+}
+
+/* 729 */
+.slider-area.style-five .hero-shape {
+    top: -25%;
+    left: -20%;
+    z-index: -1;
+    animation-name: rotatemeTwo;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+/* 767 */
+.slider-area.style-five .shape-one {
+    position: absolute;
+    left: 4%;
+    bottom: 25%;
 }
 
 /* 5353 */
@@ -283,4 +324,28 @@ span.other {
     cursor: pointer;
     display: inline-block;
     text-align: center;
+}
+
+/* Animaciones */
+/* 5694 */
+.rotatemeTwo {
+    animation-name: rotateme;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotatemeTwo {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-90deg);
+    }
+    50% {
+        transform: rotate(-180deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
 }
