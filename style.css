@@ -295,6 +295,18 @@ span.other {
     animation-iteration-count: infinite;
 }
 
+/* 742 */
+.slider-area.style-five .hero-shape3 {
+    position: absolute;
+    top: -11%;
+    right: 5%;
+    z-index: -1;
+    animation-name: rotateme;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
 /* 767 */
 .slider-area.style-five .shape-one {
     position: absolute;

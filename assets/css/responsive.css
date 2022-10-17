@@ -18,6 +18,13 @@
     }
 }
 
+/* 217 */
+@media (min-width: 1169px) and (max-width: 1364px) {
+    .slider-area.style-five .hero-shape3 {
+        right: -14%;
+    }
+}
+
 /* 220 */
 @media (min-width: 1169px) and (max-width: 1364px) {
     .slider-area.style-five .hero-shape {
