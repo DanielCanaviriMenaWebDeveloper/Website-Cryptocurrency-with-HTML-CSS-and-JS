@@ -295,6 +295,13 @@ span.other {
     animation-iteration-count: infinite;
 }
 
+/* 737 */
+.slider-area.style-five .hero-shape4 {
+    position: absolute;
+    top: 0;
+    left: -91px;
+}
+
 /* 742 */
 .slider-area.style-five .hero-shape3 {
     position: absolute;
@@ -307,11 +314,44 @@ span.other {
     animation-timing-function: linear;
 }
 
+/* 752 */
+.slider-area.style-five .hero-shape5 {
+    position: absolute;
+    right: 33px;
+    bottom: -58px;
+}
+
+/* 757 */
+.slider-area.style-five .hero-shape7 {
+    position: absolute;
+    top: -79px;
+    right: -53px;
+}
+
+/* 762 */
+.slider-area.style-five .hero-shape8 {
+    position: absolute;
+    top: 36%;
+    left: 35%;
+}
+
 /* 767 */
 .slider-area.style-five .shape-one {
     position: absolute;
     left: 4%;
     bottom: 25%;
+}
+
+/* 854 */
+.countdown-area {
+    background: rgb(1, 53, 126, 0.7);
+    width: 63%;
+    padding: 30px 0 23px;
+    z-index: 22;
+    border-radius: 7px;
+    position: absolute;
+    top: 86%;
+    left: -112px;
 }
 
 /* 5353 */
