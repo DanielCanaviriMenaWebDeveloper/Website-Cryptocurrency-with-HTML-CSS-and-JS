@@ -41,9 +41,14 @@ h1, h2, h3, h4, h5, h6 {
     background: transparent;
     padding: 2px 0px 5px;
     position: relative;
-    /* margin-bottom: -102px; */
+    margin-bottom: -102px;
     z-index: 2;
     border-bottom: 1px solid #2D3058;
+}
+
+/* 54 */
+h4 {
+    font-size: 24px;
 }
 
 /* 63 */

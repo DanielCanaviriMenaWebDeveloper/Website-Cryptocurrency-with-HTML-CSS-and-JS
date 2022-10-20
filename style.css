@@ -131,7 +131,7 @@
 /* 587 */
 .slider-area.style-five {
     background: url(assets/images/new/hero.jpg);
-    background-position: center;
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 1000px;
@@ -352,6 +352,58 @@ span.other {
     position: absolute;
     top: 86%;
     left: -112px;
+}
+
+/* 864 */
+.countdown-content {
+    text-align: center;
+}
+
+/* 867 */
+.countdown-title-two h4 {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin: 0 0 17px;
+}
+
+/* 873 */
+div#countdown-two ul li {
+    display: inline-block;
+}
+
+/* 876 */
+li.frist {
+    background: #47DBA7 !important;
+}
+
+/* 879 */
+li.secound {
+    background: #FFC107 !important;
+}
+
+/* 882 */
+li.third {
+    background: #E230CC !important;
+}
+
+/* 885 */
+div#countdown-two ul li {
+    height: 50px;
+    width: 50px;
+    line-height: 48px;
+    text-align: center;
+    background: #5AB3FF;
+    color: #FFF;
+    font-size: 22px;
+    border-radius: 4px;
+    font-family: 'Inter';
+}
+
+/* 896 */
+div#countdown-two ul li p {
+    font-size: 13px;
+    text-transform: uppercase;
 }
 
 /* 5353 */
