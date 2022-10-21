@@ -130,6 +130,7 @@
 
 /* 587 */
 .slider-area.style-five {
+    /* overflow-y: hidden; */
     background: url(assets/images/new/hero.jpg);
     background-position: center center;
     background-size: cover;
@@ -141,6 +142,7 @@
 
 /* 596 */
 .slider-area.style-five::before {
+    overflow: hidden;
     position: absolute;
     content: "";
     top: 0;
@@ -404,6 +406,87 @@ div#countdown-two ul li {
 div#countdown-two ul li p {
     font-size: 13px;
     text-transform: uppercase;
+}
+
+/* 1447 */
+.shape {
+    position: absolute;
+    top: 83px;
+    left: 5px;
+}
+
+/* 2094 */
+.feature-section {
+    background: url(assets/images/new/ground.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* 2100 */
+.single-feature-box {
+    background: #09185E;
+    position: relative;
+    z-index: 1;
+    padding: 29px 29px 29px;
+    border-radius: 5px;
+}
+
+/* 2107 */
+.single-feature-box::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0;
+    transition: .5s;
+    border-radius: 4px;
+    z-index: -1;
+    background: -webkit-linear-gradient(-9deg, #0A2C56 0%, #441459 97%);
+}
+
+/* 2119 */
+.single-feature-box:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+/* 2123 */
+.feature-thumb {
+    margin-bottom: 20px;
+}
+
+/* 2126 */
+.feature-content span {
+    font-size: 18px;
+    color: #486178;
+    margin: 0;
+    font-weight: 600;
+}
+
+/* 2132 */
+.feature-content h3 {
+    margin: 13px 0 0;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* 2137 */
+.feature-content p {
+    color: #375079;
+    position: absolute;
+    right: 26px;
+    bottom: 13px;
+    font-weight: 600;
+}
+
+/* 2146 */
+.feature-section .shape {
+    top: 29px;
+    right: 28px;
+    position: absolute;
+    left: inherit;
 }
 
 /* 5353 */
