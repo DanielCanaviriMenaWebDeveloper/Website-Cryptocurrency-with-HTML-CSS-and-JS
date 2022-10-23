@@ -46,6 +46,11 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 1px solid #2D3058;
 }
 
+/* 47 */
+h2 {
+    font-size: 35px;
+}
+
 /* 54 */
 h4 {
     font-size: 24px;
@@ -102,14 +107,29 @@ a.stiky-logo img {
     display: none;
 }
 
+/* 115 */
+.pt-30 {
+    padding-top: 30px;
+}
+
 /* 145 */
 .pt-80 {
     padding-top: 80px;
 }
 
+/* 157 */
+.pt-100 {
+    padding-top: 100px;
+}
+
 /* 207 */
 .cryptozen_menu li {
     padding-bottom: 48px;
+}
+
+/* 222 */
+.pb-20 {
+    padding-bottom: 20px;
 }
 
 /* 233 */
@@ -131,6 +151,10 @@ a.stiky-logo img {
     font-weight: 600;
     border-radius: 30px;
     border: 1px solid #535578;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
 }
 
 /* 253 */

@@ -415,6 +415,110 @@ div#countdown-two ul li p {
     left: 5px;
 }
 
+/* 1799 */
+.about-section .about-thumb {
+    position: relative;
+    left: 90px;
+}
+
+/* 1819 */
+.dreamit-section-sub-title h5 {
+    font-size: 18px;
+    margin: 0 0 12px;
+    font-weight: 300;
+    position: relative;
+    left: 72px;
+    z-index: 1;
+    display: inline-block;
+}
+
+/* 1845 */
+.about-icon-thumb {
+    height: 61px;
+    width: 61px;
+    line-height: 56px;
+    text-align: center;
+    background: #48DCA8;
+    border-radius: 100%;
+    transition: .5s;
+}
+
+/* 1854 */
+.about-content h2 {
+    font-size: 26px;
+    margin: 25px 0 12px;
+}
+
+/* 1917 */
+.about-section.style-three {
+    background: url(assets/images/new/bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+/* 1930 */
+.about-section.style-three .dreamit-section-title.text-center .dreamit-section-main-title h1 {
+    font-size: 36px;
+    margin: 0 0 22px;
+    font-weight: 600;
+}
+
+/* 1936 */
+.about-section.style-three .about-thumb {
+    position: relative;
+    left: 0;
+    top: 22px;
+}
+
+/* 1942 */
+.about-section.style-three .about-single-icon-box {
+    margin-bottom: 18px;
+}
+
+/* 1945 */
+.about-section.style-three .about-icon-thumb {
+    background: transparent;
+    margin-right: 35px;
+}
+
+/* 1949 */
+.about-section.style-three .about-content h2 {
+    font-size: 20px;
+    margin: 0px 0 14px;
+    font-weight: 500;
+}
+
+/* 1954 */
+.about-section.style-three .about-shape {
+    position: absolute;
+    top: 0;
+    right: 16px;
+}
+
+/* 1969 */
+.dreamit-section-title.two .dreamit-section-sub-title h5 img {
+    margin-right: 9px;
+}
+
+/* 1972 */
+.dreamit-section-title.two .dreamit-section-sub-title h5 {
+    background: #081B5E;
+    padding: 11px 29px;
+    left: 0;
+    border-radius: 4px;
+}
+
+/* 1991 */
+.about-section.style-three .about-shape-one {
+    position: absolute;
+    top: 17%;
+    left: 10%;
+    z-index: -1;
+}
+
 /* 2094 */
 .feature-section {
     background: url(assets/images/new/ground.png);
@@ -487,6 +591,27 @@ div#countdown-two ul li p {
     right: 28px;
     position: absolute;
     left: inherit;
+}
+
+/* 2156 */
+.dreamit-section-title.text-center .dreamit-section-sub-title h5 {
+    left: 0;
+    margin: 0 0 17px;
+    font-weight: 500;
+    z-index: 1;
+}
+
+/* 2162 */
+.dreamit-section-title.two .dreamit-section-sub-title h5{
+    margin: 0 0 21px;
+    color: #37A3FE;
+}
+
+/* 2175 */
+.dreamit-section-title.two .dreamit-section-content-text p {
+    width: 40%;
+    text-align: center;
+    margin: 0 auto 0;
 }
 
 /* 5353 */

@@ -4,6 +4,13 @@
     }
 }
 
+/* 208 */
+@media (min-width: 1169px) and (max-width: 1364px) {
+    .dreamit-section-title.two .dreamit-section-content-text p {
+        width: 48%;
+    }
+}
+
 /* 211 */
 @media (min-width: 1169px) and (max-width: 1364px) {
     .slider-area.style-five .slider-content h1 {
