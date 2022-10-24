@@ -4,6 +4,13 @@
     }
 }
 
+/* 146 */
+@media (min-width: 1169px) and (max-width: 1364px) {
+    .token-thumb img {
+        width: 100%;
+    }
+}
+
 /* 208 */
 @media (min-width: 1169px) and (max-width: 1364px) {
     .dreamit-section-title.two .dreamit-section-content-text p {
@@ -37,5 +44,12 @@
     .slider-area.style-five .hero-shape {
         top: -22%;
         left: -22%;
+    }
+}
+
+/* 224 */
+@media (min-width: 1169px) and (max-width: 1364px) {
+    .dreamit-section-title.two .dreamit-section-main-title h1 {
+        font-size: 34px;
     }
 }

@@ -35,6 +35,10 @@ h1, h2, h3, h4, h5, h6 {
     transition: .5s;
 }
 
+/* 44 */
+h1 {
+    font-size: 50px;
+}
 
 /* 46 */
 .header-area {
@@ -97,6 +101,11 @@ a:focus, a:hover {
     font-weight: 600;
 }
 
+/* 100 */
+.pt-10 {
+    padding-top: 10px;
+}
+
 /* 110 */
 nav.cryptozen_menu {
     float: right;
@@ -110,6 +119,11 @@ a.stiky-logo img {
 /* 115 */
 .pt-30 {
     padding-top: 30px;
+}
+
+/* 127 */
+.pt-50 {
+    padding-top: 50px;
 }
 
 /* 145 */
@@ -168,6 +182,11 @@ a.stiky-logo img {
     transition: .5s;
     background: #37A2FF;
     z-index: -1;
+}
+
+/* 258 */
+.pb-80 {
+    padding-bottom: 80px;
 }
 
 /* 264 */

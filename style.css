@@ -432,6 +432,11 @@ div#countdown-two ul li p {
     display: inline-block;
 }
 
+.dreamit-section-main-title h1 {
+    font-size: 42px;
+    margin: 0 0 22px;
+}
+
 /* 1845 */
 .about-icon-thumb {
     height: 61px;
@@ -509,6 +514,13 @@ div#countdown-two ul li p {
     padding: 11px 29px;
     left: 0;
     border-radius: 4px;
+}
+
+/* 1982 */
+.dreamit-section-title.two .dreamit-section-main-title h1 {
+    font-size: 36px;
+    margin: 0 0 22px;
+    font-weight: 600;
 }
 
 /* 1991 */
@@ -593,6 +605,11 @@ div#countdown-two ul li p {
     left: inherit;
 }
 
+/* 2153 */
+.token-section {
+    position: relative;
+}
+
 /* 2156 */
 .dreamit-section-title.text-center .dreamit-section-sub-title h5 {
     left: 0;
@@ -607,11 +624,71 @@ div#countdown-two ul li p {
     color: #37A3FE;
 }
 
+/* 2166 */
+.dreamit-section-title.text-center .dreamit-section-main-title h1 {
+    font-size: 40px;
+    margin: 0 0 22px;
+}
+
+/* 2170 */
+.dreamit-section-title.two .dreamit-section-main-title h1 {
+    font-size: 36px;
+    margin: 0 0 22px;
+    font-weight: 600;
+}
+
 /* 2175 */
 .dreamit-section-title.two .dreamit-section-content-text p {
     width: 40%;
     text-align: center;
     margin: 0 auto 0;
+}
+
+/* 2261 */
+.token-section .single-token-box {
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.token-section .token-content {
+    background: #0A245F;
+    text-align: center;
+    padding: 29px 0 29px;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+/* 2316 */
+.token-thumb {
+    position: relative;
+}
+
+/* 2387 */
+.token-section.style-four {
+    background: url(assets/images/new/token.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 2393 */
+.token-section.style-four .single-token-box {
+    padding: 40px 27px 42px;
+    text-align: center;
+    background: rgb(28, 25, 94, 0.6);
+    transition: .5s;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+/* 2442 */
+.token-section.style-four .token-content {
+    background: transparent;
+    padding: 18px 0 0;
+    margin-bottom: 0px;
 }
 
 /* 5353 */
