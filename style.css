@@ -713,6 +713,17 @@ div#countdown-two ul li p {
     background: -webkit-linear-gradient(-9deg, #213981 0%, #3B035A 97%);
 }
 
+/*  2429 */
+.token-section.style-four .single-token-box:hover::before {
+    left: 0;
+    width: 100%;
+}
+
+/* 2433 */
+.token-section.style-four .single-token-box:hover {
+    transform: translateY(-10px);
+}
+
 /* 2442 */
 .token-section.style-four .token-content {
     background: transparent;
