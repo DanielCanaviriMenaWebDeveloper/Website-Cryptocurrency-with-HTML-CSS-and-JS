@@ -531,6 +531,26 @@ div#countdown-two ul li p {
     z-index: -1;
 }
 
+/* 2028 */
+.choose-section.style-two {
+    background: url(assets/images/new/bg2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 2034 */
+.choose-section.style-two .dreamit-content-text-inner p {
+    margin: 21px 0 39px;
+}
+
+/* 2037 */
+.choose-section.style-two .dreamit-section-title.two .dreamit-section-content-text p {
+    width: 100%;
+    text-align: left;
+    margin: 0 auto 0;
+}
+
 /* 2094 */
 .feature-section {
     background: url(assets/images/new/ground.png);
