@@ -603,6 +603,12 @@ div#countdown-two ul li p {
     font-size: 10px;
 }
 
+/* 2089 */
+.choose-section.style-two .choose-thumb {
+    position: relative;
+    left: 95px;
+}
+
 /* 2094 */
 .feature-section {
     background: url(assets/images/new/ground.png);
