@@ -415,6 +415,27 @@ div#countdown-two ul li p {
     left: 5px;
 }
 
+/* 1539 */
+.service-section.style-three {
+    background: url(assets/images/new/service-bg.png);
+    background-position:  center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* 1545 */
+.service-section.style-three .single-service-box {
+    text-align: left !important;
+    position: relative;
+    margin-bottom: 30px;
+    padding: 39px 33px 21px;
+    right: 0;
+    background: rgb(35, 24, 117, 0.3);
+    box-shadow: 6px 0 21px rgb(0 0 0 / 4%);
+    transition: .5s;
+    z-index: 1;
+}
+
 /* 1799 */
 .about-section .about-thumb {
     position: relative;
