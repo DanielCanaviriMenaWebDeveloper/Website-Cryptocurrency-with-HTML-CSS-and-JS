@@ -436,6 +436,57 @@ div#countdown-two ul li p {
     z-index: 1;
 }
 
+/* 1556 */
+.service-section.style-three .single-service-box::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0;
+    transition: .5s;
+    border-radius: 4px;
+    z-index: -1;
+    background: -webkit-linear-gradient(-9deg, #2A0365 30%, #03224A 70%);
+}
+
+/* 1568 */
+.service-section.style-three .single-service-box:hover::before {
+    left: 0;
+    width: 100%;
+}
+
+/* 1573 */
+.service-section.style-three .single-service-box:hover {
+    box-shadow: 6px 0 21px rgb(0 0 0 / 25%);
+}
+
+/* 1576 */
+.service-section.style-three .service-thumb {
+    position: relative;
+    z-index: 1;
+    right: 8px;
+    margin-right: 13px;
+}
+
+/* 1582 */
+.style-three .service-thumb img {
+    transition: .8s;
+}
+
+/* 1585 */
+.style-three .single-service-box:hover .service-thumb img {
+    transform: rotateY(180deg);
+}
+
+/* 1588 */
+.service-section.style-three .service-content h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 16px;
+}
+
+
 /* 1799 */
 .about-section .about-thumb {
     position: relative;
