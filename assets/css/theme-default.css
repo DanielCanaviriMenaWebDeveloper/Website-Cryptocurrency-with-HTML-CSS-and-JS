@@ -230,4 +230,8 @@ a, i, cite, em, var, address, dfn, ol, li, ul {
     text-shadow: none;
 }
 
-/*  */
+/* 764 */
+::placeholder {
+    color: #454545;
+    font-size: 16px;
+}

@@ -486,6 +486,62 @@ div#countdown-two ul li p {
     margin: 0 0 16px;
 }
 
+/* 1660 */
+.table-section {
+    background: url(assets/images/new/table-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* 1666 */
+.table-reponsive.box {
+    width: 100%;
+}
+
+/* 1669 */
+.box {
+    padding: 20px 10px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* 1674 */
+.table-responsive-content h2 {
+    font-weight: 600;
+    margin: 0 0 15px;
+    font-size: 36px;
+}
+
+/* 1679 */
+.table-responsive-content span {
+    font-family: 'Inter';
+    height: 34px;
+    width: 88px;
+    background: #072B4D;
+    display: inline-block;
+    text-align: center;
+    line-height: 33px;
+    color: #63BCC2;
+}
+
+/* 1689 */
+.table-responsive-content p {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+/* 1696 */
+div#example_filter label {
+    color: #FFF;
+}
+
+/* 1699 */
+.dataTables_wrapper .dataTables_filter input {
+    border: 1px solid #332269;
+    color: #FFF;
+    margin-bottom: 18px;
+}
 
 /* 1799 */
 .about-section .about-thumb {
