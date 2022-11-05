@@ -544,6 +544,7 @@ div#example_filter label {
 }
 
 /* 1704 */
+.table-bordered td,
 .table-bordered th {
     border: 1px solid #332269;
 }
@@ -556,6 +557,33 @@ div#example_filter label {
 /* 1710 */
 th.sorting.sorting_asc {
     color: #FFF;
+}
+
+/* 1713 */
+th.sorting {
+    color: #FFF;
+}
+
+/* 1716 */
+td.sorting_1 {
+    color: #FFF;
+}
+
+/* 1719 */
+td {
+    color: #FFF;
+}
+
+/* 1722 */
+table.dataTable tbody tr {
+    background-color: transparent;
+}
+
+/* 1725 */
+table.dataTable tbody th,
+table.dataTable tbody td {
+    padding: 8px 10px;
+    font-family: 'Inter';
 }
 
 /* 1799 */
