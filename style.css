@@ -543,6 +543,21 @@ div#example_filter label {
     margin-bottom: 18px;
 }
 
+/* 1704 */
+.table-bordered th {
+    border: 1px solid #332269;
+}
+
+/* 1707 */
+.table-bordered {
+    border: none;
+}
+
+/* 1710 */
+th.sorting.sorting_asc {
+    color: #FFF;
+}
+
 /* 1799 */
 .about-section .about-thumb {
     position: relative;
