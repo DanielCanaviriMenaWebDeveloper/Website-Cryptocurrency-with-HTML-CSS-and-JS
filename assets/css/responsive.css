@@ -11,6 +11,34 @@
     }
 }
 
+/* 162 */
+@media (min-width: 1169px) and (max-width: 1364px) {
+    .road-map.style-two .single-road-map-box {
+        padding: 23px 0 23px 0px;
+        margin-right: 0px;
+    }
+}
+
+/* 199 */
+@media (min-width: 1169px) and (max-width: 1364px) {
+    .road-map.style-two.upper .single-road-map-box.two {
+        width: 71%;
+    }
+}
+
+/* 202 */
+@media (min-width: 1169px) and (max-width: 1364px) {
+    .road-map.style-two.upper .single-road-map-box {
+        margin-right: 34px;
+    }
+}
+
+/* 205 */
+@media (min-width: 1169px) and (max-width: 1364px) {
+    .road-map.style-two.upper .road-map-content-inner {
+        padding: 22px 0px 19px;
+    }
+}
 /* 208 */
 @media (min-width: 1169px) and (max-width: 1364px) {
     .dreamit-section-title.two .dreamit-section-content-text p {

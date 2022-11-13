@@ -55,6 +55,11 @@ h2 {
     font-size: 35px;
 }
 
+/* 51 */
+h3 {
+    font-size: 30px;
+}
+
 /* 54 */
 h4 {
     font-size: 24px;
@@ -129,6 +134,16 @@ a.stiky-logo img {
 /* 127 */
 .pt-50 {
     padding-top: 50px;
+}
+
+/* 130 */
+.pt-55 {
+    padding-top: 55px;
+}
+
+/* 142 */
+.pt-75 {
+    padding-top: 75px;
 }
 
 /* 145 */
