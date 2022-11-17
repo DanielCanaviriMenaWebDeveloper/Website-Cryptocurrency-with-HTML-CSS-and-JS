@@ -603,6 +603,7 @@ table.dataTable tbody td {
     display: inline-block;
 }
 
+/* 1837 */
 .dreamit-section-main-title h1 {
     font-size: 42px;
     margin: 0 0 22px;
@@ -1022,6 +1023,66 @@ table.dataTable tbody td {
 /* 2479 */
 .token-section.style-four .token-btn a:hover {
     border-color: #FFF;
+}
+
+/* 2640 */
+.graph-section {
+    background: #07093C;
+}
+
+/* 2643 */
+.row.upper14 {
+    border-top: 1px solid #252855;
+    padding-top: 89px;
+}
+
+/* 2647 */
+.graph-section .dreamit-section-main-title h1 {
+    margin: 0 0 13px;
+}
+
+/* 2650 */
+.right-side-graph-btn {
+    float: right;
+}
+
+/* 2653 */
+.right-side-graph-btn a {
+    display: inline-block;
+    background: #37A3FE;
+    padding: 17px 45px;
+    font-family: 'Inter';
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+/* 2685 */
+.graph-section.style-three {
+    background: url(assets/images/new/000.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* 2691 */
+.graph-section.style-three .row.upper14 {
+    border-top: none;
+}
+
+/* 2694 */
+.graph-section.style-three .right-side-graph-btn a {
+    border-radius: 5px;
+    padding: 13px 45px;
+}
+
+/* 2698 */
+.graph-section.style-three .dreamit-section-main-title h1 {
+    font-size: 36px;
+    font-weight: 600;
 }
 
 /* 2750 */
