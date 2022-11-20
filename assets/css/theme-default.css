@@ -111,6 +111,11 @@ a:focus, a:hover {
     padding-top: 10px;
 }
 
+/* 106 */
+.pt-20 {
+    padding-top: 20px;
+}
+
 /* 110 */
 nav.cryptozen_menu {
     float: right;
