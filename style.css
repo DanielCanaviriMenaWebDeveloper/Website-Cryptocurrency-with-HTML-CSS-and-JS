@@ -1032,6 +1032,33 @@ table.dataTable tbody td {
     position: relative;
 }
 
+/* 2603 */
+.chart-menu {
+    position: relative;
+    left: 43px;
+}
+
+/* 2607 */
+.chart-menu ul li {
+    font-size: 16px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    list-style: none;
+    position: relative;;
+}
+
+/* 2614 */
+.chart-menu ul li:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: -27px;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background: #AA3BC5;
+}
+
 /* 2640 */
 .graph-section {
     background: #07093C;

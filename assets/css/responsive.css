@@ -4,6 +4,13 @@
     }
 }
 
+/* 81 */
+@media (min-width: 1169px) and (max-width: 1364px) {
+    .chart-menu {
+        left: 30px;
+    }
+}
+
 /* 146 */
 @media (min-width: 1169px) and (max-width: 1364px) {
     .token-thumb img {
