@@ -1149,6 +1149,13 @@ table.dataTable tbody td {
     border-radius: 5px;
 }
 
+/* 2718 */
+.chart-menu ul li span {
+    font-size: 16px;
+    font-family: 'Inter';
+    margin-right: 13px;
+}
+
 /* 2750 */
 .single-road-map-box {
     border: 1px solid #034F9B;

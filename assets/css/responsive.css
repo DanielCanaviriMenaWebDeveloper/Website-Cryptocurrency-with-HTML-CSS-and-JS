@@ -4,6 +4,13 @@
     }
 }
 
+/* 78 */
+@media (min-width: 1169px) and (max-width: 1364px) {
+    .chart-menu ul li span {
+        margin-right: 0;
+    }
+}
+
 /* 81 */
 @media (min-width: 1169px) and (max-width: 1364px) {
     .chart-menu {
