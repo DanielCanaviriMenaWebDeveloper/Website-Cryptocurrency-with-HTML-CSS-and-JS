@@ -1032,6 +1032,22 @@ table.dataTable tbody td {
     position: relative;
 }
 
+/* 2592 */
+.single-chart-two {
+    background: #0D3151;
+    padding: 43px 0px 103px;
+    position: relative;
+}
+
+/* 2597 */
+canvas#yourChart {
+    height: 470px !important;
+    width: 470px !important;
+    position: relative;
+    left: 20px;
+}
+
+
 /* 2603 */
 .chart-menu {
     position: relative;
@@ -1057,6 +1073,31 @@ table.dataTable tbody td {
     width: 20px;
     border-radius: 100%;
     background: #AA3BC5;
+}
+
+/* 2624 */
+.chart-menu li.another2::before {
+    background: #1ED4A4;
+}
+
+/* 2627 */
+.chart-menu li.another3::before {
+    background: #F97431;
+}
+
+/* 2630 */
+.chart-menu li.another4::before {
+    background: #09B1F2;
+}
+
+/* 2633 */
+.chart-menu li.another5::before {
+    background: #FEB81A;
+}
+
+/* 2636 */
+.chart-menu li.another6::before {
+    background: #ED3954;
 }
 
 /* 2640 */
@@ -1149,11 +1190,33 @@ table.dataTable tbody td {
     border-radius: 5px;
 }
 
+/* 2706 */
+.shape12 {
+    position: absolute;
+    top: 36%;
+    left: 39%;
+}
+
+/* 2711 */
+.shape13 {
+    position: absolute;
+    top: 28%;
+    left: 32%;
+    right: 0;
+    margin: auto;
+}
+
 /* 2718 */
 .chart-menu ul li span {
     font-size: 16px;
     font-family: 'Inter';
     margin-right: 13px;
+}
+
+/* 2723 */
+.row.upper13 {
+    position: relative;
+    top: 70px;
 }
 
 /* 2750 */
