@@ -1372,6 +1372,14 @@ canvas#yourChart {
     background: #0094FF;
 }
 
+/* 3069 */
+.call-section {
+    background: url(assets/images/new/call.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
 /* 5353 */
 .sidebar {
     display: inline-block;
