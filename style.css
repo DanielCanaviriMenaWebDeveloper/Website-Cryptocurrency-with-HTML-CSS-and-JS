@@ -1380,6 +1380,49 @@ canvas#yourChart {
     background-size: cover;
 }
 
+/* 3075 */
+.call-section .row.section {
+    background: url(assets/images/new/shape.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 67px 34px 79px;
+    position: relative;
+    border-radius: 7px;
+}
+
+/* 3084 */
+.call-section .call-shape {
+    position: absolute;
+    top: -110px;
+}
+
+/* 3088 */
+.call-section .call-shape2 {
+    position: absolute;
+    left: 94px;
+    animation: wooo 3s infinite;
+}
+
+/* 3093 */
+.call-section .call-title h2 {
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0 0 0;
+    line-height: 1.3;
+}
+
+/* 3099 */
+.call-section .call-content-text p {
+    margin: 13px 0 46px;
+} 
+
+/* 3102 */
+.call-section span.more {
+    margin-left: 16px;
+}
+
+
 /* 5353 */
 .sidebar {
     display: inline-block;
@@ -1439,5 +1482,24 @@ canvas#yourChart {
     }
     100% {
         transform: rotate(-360deg);
+    }
+}
+
+/* 5716 */
+#rotateMe {
+    animation: wooo 3s infinite;
+    transform-origin: 50% 50% 50%;
+}
+
+/* 5722 */
+@keyframes wooo {
+    0% {
+        transform: rotate3d(0, 0, 0);
+    }
+    50% {
+        transform: rotate3d(0, 1, 0, 180deg);
+    }
+    100% {
+        transform: rotate3d(0, 1, 0, 359deg);
     }
 }
