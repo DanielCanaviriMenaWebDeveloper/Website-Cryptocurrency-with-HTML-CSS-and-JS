@@ -1422,6 +1422,18 @@ canvas#yourChart {
     margin-left: 16px;
 }
 
+/* 3154 */
+.team-section {
+    background: url(assets/images/team/abvice.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 3398 */
+.team-section.style-four .single-team-box-two {
+    transition: .5s;
+}
 
 /* 5353 */
 .sidebar {
@@ -1443,6 +1455,54 @@ canvas#yourChart {
     top: 12%;
     left: 12%;
     z-index: -1;
+}
+
+/* 3304 */
+.single-team-thumb {
+    position: relative;
+}
+
+/* 3307 */
+.single-team-thumb img {
+    width: 100%;
+}
+
+/* 3310 */
+.single-team-content {
+    background: #FFF;
+    text-align: center;
+    width: 80%;
+    left: 25px;
+    right: 0;
+    margin: 0;
+    position: absolute;
+    padding: 26px 0 9px;
+    border-radius: 5px;
+    bottom: 64px;
+}
+
+/* 3322 */
+.single-team-content h3 {
+    color: #08195E;
+    font-s
+}
+
+/* 3423 */
+.team-section.style-four .single-team-content {
+    background: #0A2D6D;
+    text-align: center;
+    width: 100%;
+    position: inherit;
+    padding: 26px 0 31px;
+    border-radius: 0;
+    bottom: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* 3441 */
+.team-section.style-four .single-team-content h3 {
+    color: #FFF;
 }
 
 /* 5523 */
