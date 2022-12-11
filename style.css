@@ -1484,7 +1484,22 @@ canvas#yourChart {
 /* 3322 */
 .single-team-content h3 {
     color: #08195E;
-    font-s
+    font-size: 20px;
+    margin: 0 0 4px;
+    font-weight: 600;
+}
+
+/* 3340 */
+.single-team-social-icon ul li {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+/* 3349 */
+.single-team-social-icon ul li.first {
+    height: 45px;
+    width: 100px;
+    background: #F5F5F5;
 }
 
 /* 3423 */
@@ -1500,9 +1515,31 @@ canvas#yourChart {
     border-bottom-right-radius: 5px;
 }
 
+/* 3434 */
+.team-section.style-four .single-team-social-icon {
+    margin-top: 20px;
+}
+
+/* 3437 */
+.team-section.style-four .single-team-social-icon ul li {
+    border-radius: 4px;
+    transition: .5s;
+}
+
 /* 3441 */
 .team-section.style-four .single-team-content h3 {
     color: #FFF;
+}
+
+/* 3444 */
+.team-section.style-four .single-team-social-icon ul li.first {
+    background: #23407A;
+}
+
+/* 3470 */
+.team-section.style-four .single-team-content span {
+    font-weight: 500;
+    color: #A2BBD2
 }
 
 /* 5523 */
