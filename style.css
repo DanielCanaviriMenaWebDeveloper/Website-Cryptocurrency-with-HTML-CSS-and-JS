@@ -1502,6 +1502,19 @@ canvas#yourChart {
     background: #F5F5F5;
 }
 
+.single-team-social-icon ul li a {
+    color: #9797A1;
+    display: inline-block;
+    background: #F5F5F5;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 16px;
+    transition: .5s;
+    border-radius: 5px;
+}
+
 /* 3423 */
 .team-section.style-four .single-team-content {
     background: #0A2D6D;
@@ -1533,6 +1546,16 @@ canvas#yourChart {
 
 /* 3444 */
 .team-section.style-four .single-team-social-icon ul li.first {
+    background: #23407A;
+}
+
+/* 3459 */
+.team-section.style-four .single-team-social-icon ul li.first a {
+    background: transparent;
+}
+
+.team-section.style-four .single-team-social-icon ul li a {
+    color: #9797A1;
     background: #23407A;
 }
 
