@@ -1668,10 +1668,129 @@ ul.tabs li.active {
     font-weight: 600;
 }
 
+/* 3641 */
+.tab_content {
+    padding: 23px 0 0 4px;
+    display: none;
+}
+
+/* 3839 */
+.faq-section.style-four {
+    background: url(assets/images/new/call.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* 3845 */
+.faq-section.style-four .accordion a::after {
+    top: 26px;
+}
+
+/* 3848 */
+.faq-section.style-four .accordion a::before {
+    top: 32px;
+}
+
 /* 3855 */
 .faq-section.style-four ul.tabs {
     display: flex;
     justify-content: center;
+}
+
+/* 3871 */
+.accordion {
+    max-width: 517px;
+    border-top: 1px solid #D9E5E8;
+    height: 360px;
+    scroll-behavior: none;
+}
+
+/* 3877 */
+ul.accordion {
+    padding: 0;
+}
+
+/* 3880 */
+.accordion li {
+    list-style-type: none;
+    padding: 0;
+    border-bottom: 1px solid #D9E5E8;
+    position: relative;
+}
+
+/* 3889 */
+.accordion li p {
+    display: none;
+    padding: 0px 0px 5px 17px;
+    color: #FFF;
+    font-size: 16px;
+}
+
+/* 3895 */
+.accordion a {
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 3.5;
+    font-size: 14px;
+    font-size: 0.075rem;
+    text-indent: 15px;
+    user-select: none;
+    font-size: 20px;
+    color: #0094FB !important;
+    display: inline-block;
+    font-family: 'Inter';
+}
+
+/* 3910 */
+.accordion a::after {
+    width: 8px;
+    height: 16px;
+    border-right: 2px solid #FFF;
+    position: absolute;
+    content: "";
+    right: 16px;
+    top: 34px;
+    transform: rotate(1deg);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+/* 3923 */
+.accordion a::before {
+    width: 15px;
+    height: 8px;
+    border-top: 2px solid #FFF;
+    position: absolute;
+    content: "";
+    right: 10px;
+    top: 41px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+/* 3935 */
+.accordion p {
+    font-size: 13px;
+    font-size: 0.8125rem;
+    line-height: 1.8;
+}
+
+/* 3941 */
+a.active::after {
+    transform: rotate(90deg);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+/* 3947 */
+a.active::before {
+    display: none;
 }
 
 /* 5353 */
