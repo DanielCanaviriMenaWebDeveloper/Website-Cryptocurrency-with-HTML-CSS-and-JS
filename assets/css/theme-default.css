@@ -166,6 +166,11 @@ a.stiky-logo img {
     padding-top: 90px;
 }
 
+/* 154 */
+.pt-95 {
+    padding-top: 95px;
+}
+
 /* 157 */
 .pt-100 {
     padding-top: 100px;
@@ -207,6 +212,7 @@ a.stiky-logo img {
     border: 1px solid #535578;
 }
 
+/* 240 */
 .pb-50 {
     padding-bottom: 50px;
 }
