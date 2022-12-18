@@ -1674,6 +1674,62 @@ ul.tabs li.active {
     display: none;
 }
 
+/* 3709 */
+.contact-section.style-four .contact-icon {
+    right: 25px;
+    position: relative;
+    z-index: 1;
+}
+
+/* 3714 */
+.contact-section.style-four .contact-icon::after {
+    position: absolute;
+    content: "";
+    top: -8px;
+    left: -8px;
+    height: 65px;
+    width: 65px;
+    z-index: -1;
+    background: rgb(55, 163, 254, 0.5);
+    border-radius: 100%;
+}
+
+/* 3725 */
+.contact-section.style-four .contact-icon i {
+    display: inline-block;
+    height: 49px;
+    width: 49px;
+    line-height: 49px;
+    text-align: center;
+    background: #0195F9;
+    font-size: 22px;
+    color: #FFF;
+    border-radius: 100%;
+}
+
+/* 3737 */
+.contact-section.style-four .contact-content-text  p {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* 3744 */
+.contact-section.style-four {
+    margin-top: 0;
+    background: url(assets/images/new/blog.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* 3760 */
+.contact-section.style-four .row.upper12 {
+    background: transparent;
+    border-radius: 0px;
+}
+
 /* 3839 */
 .faq-section.style-four {
     background: url(assets/images/new/call.jpg);
@@ -1696,6 +1752,11 @@ ul.tabs li.active {
 .faq-section.style-four ul.tabs {
     display: flex;
     justify-content: center;
+}
+
+/* 3862 */
+.contact-section.style-four {
+    margin-top: 0;
 }
 
 /* 3871 */
@@ -1791,6 +1852,17 @@ a.active::after {
 /* 3947 */
 a.active::before {
     display: none;
+}
+
+/* 3970 */
+.contact-section {
+    position: relative;
+    margin-top: -272px;
+}
+
+.row.upper12 {
+    background: #0A1F62;
+    border-radius: 10px;
 }
 
 /* 4238 */
