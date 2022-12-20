@@ -1749,6 +1749,26 @@ ul.tabs li.active {
     margin-bottom: 26px;
 }
 
+/* 3773 */
+.contact-section.style-four textarea.form-control {
+    height: 154px !important;
+}
+
+/* 3776 */
+.contact-section.style-four .quote_btn.text_center {
+    margin: auto;
+}
+
+/* 3779 */
+.contact-section.style-four .btn {
+    border-radius: 5px;
+}
+
+/* 3782 */
+.contact-section.style-four .btn::after {
+    border-radius: 5px;
+}
+
 /* 3839 */
 .faq-section.style-four {
     background: url(assets/images/new/call.jpg);
@@ -1905,6 +1925,56 @@ a.active::before {
     font-family: 'Inter';
     border: none;
     margin-bottom: 26px;
+}
+
+/* 4018 */
+.btn {
+    display: inline-block;
+    font-weight: 600;
+    color: #FFF;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #0194FC;
+    border: 1px solid transparent;
+    padding: 16px 42px;
+    font-size: 16px;
+    transition: .5s;
+    line-height: 1.5;
+    border-radius: 30px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    font-family: inter;
+}
+
+/* 4041 */
+.btn::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0;
+    transition: .5s;
+    border-radius: 30px;
+    background: #FFF;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+/* 4054 */
+.btn:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+/* 4058 */
+.btn:hover {
+    color: #0194FC;
 }
 
 .row.upper12 {
