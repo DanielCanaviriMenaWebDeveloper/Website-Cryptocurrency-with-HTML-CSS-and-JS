@@ -2149,6 +2149,71 @@ a.active::before {
     font-weight: 500;
 }
 
+/* 4979 */
+.footer {
+    background: url(assets/images/footer/);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* 4985 */
+.footer-content p {
+    margin: 21px 0 27px;
+}
+
+/* 5022 */
+.social-content h3 {
+    font-size: 20px;
+    margin: 0 0 0 ;
+}
+
+/* 5026 */
+.footer-about-social-icon ul li {
+    display: inline-block;
+    margin-right: 7px;
+}
+
+/* 5030 */
+.footer-about-social-icon ul li a {
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+    line-height: 42px;
+    text-align: center;
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    background: #333067;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+/* 5043 */
+.footer-about-social-icon ul li a::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    transition: .5s;
+    z-index: -1;
+    height: 100%;
+    width: 0;
+    border-radius: 100%;
+    background: #0194FC;
+}
+
+/* 5055 */
+.footer-about-social-icon ul li a:hover::after {
+    left: 0;
+    width: 100%;
+}
+
+/* 5059 */
+.footer-about-social-icon ul li a:hover {
+    color: #FFF;
+}
+
 /* 5353 */
 .sidebar {
     display: inline-block;
