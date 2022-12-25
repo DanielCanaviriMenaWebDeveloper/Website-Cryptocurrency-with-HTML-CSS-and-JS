@@ -2151,7 +2151,7 @@ a.active::before {
 
 /* 4979 */
 .footer {
-    background: url(assets/images/footer/);
+    background: url(assets/images/footer/footer.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2293,6 +2293,28 @@ button.subscribe-button {
     text-transform: uppercase;
     font-size: 15px;
     outline: 0;
+}
+
+/* 5169 */
+.footer-copyright-content {
+    float: right;
+}
+
+/* 5172 */
+.footer-sicial-address-link ul li {
+    display: inline-block;
+    margin-left: 24px;
+}
+
+/* 5176 */
+.footer-copyright-text p {
+    margin: 0;
+}
+
+/* 5179 */
+.row.upper11 {
+    border-top: 1px solid #3E407B;
+    padding: 33px 0 31px;
 }
 
 /* 5183 */
