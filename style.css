@@ -1,3 +1,13 @@
+/* 46 */
+.header-area {
+    background: transparent;
+    padding: 2px 0px 5px;
+    position: relative;
+    margin-bottom: -102px;
+    z-index: 2;
+    border-bottom: 1px solid #2D3058;
+}
+
 /* 95 */
 .cryptozen_menu ul li a:hover {
     color: #37A3FE;
@@ -17,6 +27,80 @@
     cursor: pointer;
     position: relative;
     top: 3px;
+}
+
+/* 233 */
+.header-btn {
+    display: inline-block;
+    position: relative;
+    top: 20px;
+}
+
+/* 238 */
+.header-btn a {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 33px;
+    font-size: 15px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    font-weight: 600;
+    border-radius: 30px;
+    border: 1px solid #535578;
+}
+
+/* 253 */
+.header-btn a::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0;
+    right: 0;
+    top: 0;
+    transition: .5s;
+    background: #37A2FF;
+    z-index: -1;
+}
+
+/* 282 */
+.header-area.style-three {
+    margin-bottom: 0;
+    border-bottom: none;
+    background: #FFF;
+}
+
+/* 290 */
+.header-area.style-three .cryptozen_menu ul li a {
+    color: #0B0b47;
+}
+
+/* 296 */
+.header-area.style-three .cryptozen_menu ul li a:hover {
+    color: #0194FC;
+}
+
+/* 299 */
+.header-area.style-three .header-btn a {
+    color: #0B0B47;
+    transition: .5s;
+}
+
+/* 303 */
+.header-area.style-three .header-btn a:hover {
+    color: #FFF;
+}
+
+/* 310 */
+.header-area.style-three .search-box-btn.search-box-outer i {
+    color: #0B0B47;
+    top: -3px;
+    position: relative;
+}
+
+/* 315 */
+.header-area.style-three .nav-btn.navSidebar-button {
+    color: #0B0B47;
 }
 
 /* 339 */
