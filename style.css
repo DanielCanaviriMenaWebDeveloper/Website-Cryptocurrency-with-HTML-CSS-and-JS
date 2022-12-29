@@ -2233,6 +2233,46 @@ a.active::before {
     font-weight: 500;
 }
 
+/* 4658 */
+.breatcome-area {
+    background: url(assets/images/footer/footer.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 132px 0 132px;
+}
+
+/* 4665 */
+.breatcome-content-title h1 {
+    font-size: 40px;
+    margin: 0 0 15px;
+    font-weight: 600;
+}
+
+/* 4670 */
+.breatcome-content-text ul li i {
+    margin: 0 8px;
+    display: inline-block;
+    font-size: 13px;
+}
+
+/* 4675 */
+.breatcome-content-text ul li a {
+    font-weight: 600;
+    display: inline-block;
+}
+
+/* 4682 */
+.breatcome-content-text ul li {
+    list-style: none;
+}
+
+/* 4685 */
+.breatcome-content-text ul li span {
+    color: #FFF;
+    font-weight: 600;
+}
+
 /* 4979 */
 .footer {
     background: url(assets/images/footer/footer.jpg);
