@@ -676,6 +676,27 @@ table.dataTable tbody td {
     left: 90px;
 }
 
+/* 1803 */
+.about-section .shape1 {
+    position: absolute;
+    right: 196px;
+    top: 113px;
+}
+
+/* 1808 */
+.about-section .shape2 {
+    position: absolute;
+    top: 178px;
+    left: -117px;
+}
+
+/* 1813 */
+.about-section .shape3 {
+    position: absolute;
+    bottom: 160px;
+    right: 137px;
+}
+
 /* 1819 */
 .dreamit-section-sub-title h5 {
     font-size: 18px;
@@ -687,10 +708,26 @@ table.dataTable tbody td {
     display: inline-block;
 }
 
+/* 1828 */
+.dreamit-section-sub-title h5::before {
+    position: absolute;
+    content: "";
+    top: 17px;
+    left: -73px;
+    height: 2px;
+    width: 59px;
+    background: #0093FA;
+}
+
 /* 1837 */
 .dreamit-section-main-title h1 {
     font-size: 42px;
     margin: 0 0 22px;
+}
+
+/* 1841 */
+.dreamit-section-content-text p {
+    text-align: justify;
 }
 
 /* 1845 */
@@ -708,6 +745,50 @@ table.dataTable tbody td {
 .about-content h2 {
     font-size: 26px;
     margin: 25px 0 12px;
+}
+
+/* 1858 */
+.about-single-icon-box:hover .about-icon-thumb {
+    background: #FEC107;
+}
+
+/* 1861 */
+.about-btn a {
+    display: inline-block;
+    background: #0194FC;
+    padding: 17px 39px;
+    font-size: 15px;
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+    font-weight: 600;
+}
+
+/* 1873 */
+.about-btn a:hover {
+    color: #0194FC;
+}
+
+/* 1876 */
+.about-btn a::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0;
+    transition: .5s;
+    z-index: -1;
+    background: #FFF;
+    border-radius: 30px;
+}
+
+/* 1888 */
+.about-btn a:hover::after {
+    left: 0;
+    width: 100%;
 }
 
 /* 1917 */
