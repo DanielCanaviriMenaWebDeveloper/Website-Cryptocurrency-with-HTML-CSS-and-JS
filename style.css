@@ -868,6 +868,46 @@ table.dataTable tbody td {
     z-index: -1;
 }
 
+/* 1999 */
+.choose-section {
+    background: url(assets/images/choose/section.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 2005 */
+.choose-single-box {
+    background: #143352;
+    padding: 43px 26px 16px;
+    transition: .5s;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+/* 2012 */
+.choose-single-box.two {
+    background: #062663;
+}
+
+/* 2015 */
+.choose-single-box.three {
+    background: #331259;
+}
+
+/* 2018 */
+.choose-single-box.four {
+    background: #392E32;
+}
+
+/* 2021 */
+.choose-content h2 {
+    font-size: 22px;
+    margin: 36px 0 15px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
 /* 2028 */
 .choose-section.style-two {
     background: url(assets/images/new/bg2.png);
