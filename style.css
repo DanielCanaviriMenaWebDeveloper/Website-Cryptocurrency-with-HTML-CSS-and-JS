@@ -1649,6 +1649,112 @@ canvas#yourChart {
     background-size: cover;
 }
 
+/* 3160 */
+.single-team-box {
+    text-align: center;
+    margin-bottom: 30px;
+    transition: .5s;
+}
+
+/* 3165 */
+.single-team-box:hover .team-social-icon ul li a {
+    transform: translateY(0px);
+    opacity: 1;
+    overflow: hidden;
+    visibility: visible;
+}
+
+/* 3178 */
+.team-thumb {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50% 50% 0 0;
+}
+
+/* 3183 */
+.team-thumb img {
+    width: 100%;
+}
+
+/* 3186 */
+.team-thumb::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    transition: .9s;
+    background: rgb(10, 31, 98, 0.6);
+    border-radius: 50% 50% 0 0;
+}
+
+/* 3197 */
+.single-team-box:hover .team-thumb::before {
+    height: 100%;
+}
+
+/* 3200 */
+.team-content {
+    background: #0A1F62;
+    padding: 23px 0 26px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+}
+
+/* 3233 */
+.team-social-icon {
+    position: absolute;
+    left: 77px;
+    bottom: 10px;
+    transition: .5s;
+}
+
+/* 3239 */
+.team-social-icon ul li {
+    display: inline-block;
+    margin-right: 3px;
+}
+
+/* 3243 */
+.team-social-icon ul li:nth-child(1) a {
+    transition-delay: 0.1s;
+}
+
+/* 3246 */
+.team-social-icon ul li:nth-child(2) a {
+    transition-delay: 0.3s;
+}
+
+/* 3249 */
+.team-social-icon ul li:nth-child(3) a {
+    transition-delay: 0.4s;
+}
+
+/* 3252 */
+.team-social-icon ul li a {
+    display: inline-block;
+    height: 37px;
+    width: 37px;
+    line-height: 37px;
+    text-align: center;
+    background: rgb(133, 148, 169, 0.5);
+    border-radius: 100%;
+    transition: .5s;
+    z-index: -1;
+    overflow: hidden;
+    transform: translateY(-100px);
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* 3268 */
+.team-social-icon ul li a:hover {
+    background: rgb(56, 163, 254, 0.6);
+    color: #FFF;
+}
+
 /* 3273 */
 .team-inner-thumb {
     display: inline-block;
