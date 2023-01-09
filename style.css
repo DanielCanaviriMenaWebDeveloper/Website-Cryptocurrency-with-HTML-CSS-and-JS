@@ -1703,6 +1703,44 @@ canvas#yourChart {
     position: relative;
 }
 
+/* 3207 */
+.team-content::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 50%;
+    background: #0093FA;
+    transition: .5s;
+}
+
+/* 3217 */
+.team-content.two::before {
+    background: #48DCAA;
+}
+
+/* 3220 */
+.team-content.three::before {
+    background: #FEC106;
+}
+
+/* 3223 */
+.team-content.four::before {
+    background: #E031CA;
+}
+
+/* 3226 */
+.single-team-box:hover .team-content::before {
+    width: 100%;
+}
+
+/* 3229 */
+.team-content h3 {
+    font-size: 22px;
+    margin: 0 0 6px;
+}
+
 /* 3233 */
 .team-social-icon {
     position: absolute;
