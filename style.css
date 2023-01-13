@@ -2122,6 +2122,11 @@ ul.tabs li.active {
     display: none;
 }
 
+/* 3705 */
+.contact-section.style-three {
+    margin-top: 0;
+}
+
 /* 3709 */
 .contact-section.style-four .contact-icon {
     right: 25px;
@@ -2347,12 +2352,40 @@ a.active::before {
     margin-top: -272px;
 }
 
+/* 3974 */
+.row.upper12 {
+    background: #0A1F62;
+    border-radius: 10px;
+}
+
+/* 3978 */
+.contact-section .dreamit-section-sub-title h5 {
+    font-size: 24px;
+    margin: 0 0 31px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
 /* 3984 */
 .contact_from.upper10 {
     background: #0A1F62;
     padding: 55px 55px 43px 55px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+}
+
+/* 3990 */
+.right-side-info {
+    background: #0194FC;
+    padding: 57px 50px 72px 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 100%;
+}
+
+/* 3997 */
+.right-side-info .dreamit-section-sub-title h5::before {
+    background: #FFF;
 }
 
 /* 4000 */
@@ -2425,9 +2458,93 @@ a.active::before {
     color: #0194FC;
 }
 
-.row.upper12 {
-    background: #0A1F62;
-    border-radius: 10px;
+/* 4061 */
+.info-icon i {
+    display: inline-block;
+    height: 47px;
+    width: 47px;
+    line-height: 47px;
+    text-align: center;
+    background: #FFF;
+    border-radius: 100%;
+    font-size: 22px;
+    color: #0093FA;
+}
+
+/* 4072 */
+.single-info-box {
+    border-bottom: 1px solid #4EB4FC;
+    margin-bottom: 21px;
+}
+
+/* 4077 */
+.info-content h4 {
+    font-size: 16px;
+    margin: 0 0 5px;
+    font-weight: 500;
+}
+
+/* 4082 */
+.info-content-inner h4 {
+    font-size: 16px;
+    margin: 0 0 17px;
+}
+
+/* 4087 */
+.info-icon {
+    margin-right: 21px;
+}
+
+/* 4090 */
+.info-icon.two i {
+    color: #47DBA7;
+}
+
+/* 4093 */
+.info-icon.three i {
+    color: #FEC106;
+}
+
+/* 4096 */
+.info-content p {
+    color: #FFF;
+    font-family: "Inter";
+    line-height: 1.5;
+}
+
+/* 4189 */
+.info-social-address ul li {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+/* 4193 */
+.info-social-address ul li a {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    transition: .5s;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+/* 4206 */
+.info-social-address ul li a::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0;
+    right: 0;
+    top: 0;
+    transition: .5s;
+    z-index: -1;
+    background: #fff;
+    border-radius: 100%;
 }
 
 /* 4233 */
