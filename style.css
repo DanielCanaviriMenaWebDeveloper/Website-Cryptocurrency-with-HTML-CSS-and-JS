@@ -1880,6 +1880,26 @@ canvas#yourChart {
      color: #FFF;
 }
 
+/* 3371 */
+.team-section.style-three {
+    background: #FFF;
+}
+
+/* 3374 */
+.team-section.style-three .dreamit-section-title.text-center .dreamit-section-sub-title h5 {
+    color: #081B5F;
+}
+
+/* 3377 */
+.team-section.style-three .dreamit-section-title.text-center .dreamit-section-main-title h1 {
+    color: #081B5F;
+}
+
+/* 3380 */
+.team-section.style-three .inner-btn a {
+    color: #081B5F;
+}
+
 /* 3398 */
 .team-section.style-four .single-team-box-two {
     transition: .5s;
