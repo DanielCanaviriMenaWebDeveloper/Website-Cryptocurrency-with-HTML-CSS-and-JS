@@ -499,6 +499,12 @@ div#countdown-two ul li p {
     left: 5px;
 }
 
+.dreamit-section-content-text-inner p {
+    width: 56%;
+    margin: 0 auto 0;
+    font-weight: 600;
+}
+
 /* 1539 */
 .service-section.style-three {
     background: url(assets/images/new/service-bg.png);
@@ -668,6 +674,11 @@ table.dataTable tbody th,
 table.dataTable tbody td {
     padding: 8px 10px;
     font-family: 'Inter';
+}
+
+/* 1795 */
+.dreamit-section-title-two.text-center .dreamit-section-main-title span {
+    color: #46DDA8;
 }
 
 /* 1799 */
@@ -1816,6 +1827,13 @@ canvas#yourChart {
     margin-left: 6px;
 }
 
+/* 3299 */
+.team-section.style-two .dreamit-section-content-text-inner p {
+    width: 55%;
+    margin: 0 auto 0;
+    color: #616161;
+}
+
 /* 3304 */
 .single-team-thumb {
     position: relative;
@@ -1898,6 +1916,22 @@ canvas#yourChart {
 /* 3380 */
 .team-section.style-three .inner-btn a {
     color: #081B5F;
+}
+
+/* 3384 */
+.team-section.style-two.upper {
+    background: #080A3D;
+}
+
+/* 3387 */
+.team-section.style-two.upper .dreamit-section-title-two.text-center .dreamit-section-main-title h1 {
+    margin: 0 0 14px;
+    color: #FFF;
+}
+
+/* 3391 */
+.team-section.style-two.upper .dreamit-section-content-text-inner p {
+    color: #FFF;
 }
 
 /* 3398 */
