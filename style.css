@@ -1675,6 +1675,16 @@ canvas#yourChart {
     visibility: visible;
 }
 
+/* 3172 */
+.single-team-box-two {
+    transition: .5s;
+}
+
+/* 3175 */
+.single-team-box-two:hover {
+    transform: translateY(-10px);
+}
+
 /* 3178 */
 .team-thumb {
     position: relative;
@@ -1855,7 +1865,7 @@ canvas#yourChart {
     position: absolute;
     padding: 26px 0 9px;
     border-radius: 5px;
-    bottom: 64px;
+    bottom: -64px;
 }
 
 /* 3322 */
@@ -1866,10 +1876,33 @@ canvas#yourChart {
     font-weight: 600;
 }
 
+/* 3328 */
+.single-team-content span {
+    font-weight: 500;
+    color: #1DD5A3;
+}
+
+/* 3332 */
+.single-team-inner-content {
+    padding: 80px 0 26px;
+    box-shadow: 10px 0 40px rgb(0 0 0 / 5%);
+    background: #FFF;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    text-align: center;
+}
+
 /* 3340 */
 .single-team-social-icon ul li {
     display: inline-block;
     margin-right: 4px;
+}
+
+/* 3344 */
+.single-team-social-icon ul li.first span {
+    color: #9797A1;
+    position: relative;
+    left: 2px;
 }
 
 /* 3349 */
@@ -1895,7 +1928,9 @@ canvas#yourChart {
 
 /* 3366 */
 .single-team-social-icon ul li a:hover{
-     color: #FFF;
+    background: #1ED5A4;
+    color: #FFF;
+
 }
 
 /* 3371 */
