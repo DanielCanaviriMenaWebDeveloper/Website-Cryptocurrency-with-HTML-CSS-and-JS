@@ -499,6 +499,7 @@ div#countdown-two ul li p {
     left: 5px;
 }
 
+/* 1461 */
 .dreamit-section-content-text-inner p {
     width: 56%;
     margin: 0 auto 0;
@@ -1451,6 +1452,21 @@ canvas#yourChart {
 .road-map.style-two {
     position: relative;
     z-index: 1;
+    background: url(assets/images/map/map.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* 2950 */
+.road-map.style-two .dreamit-section-title-two.text-center .dreamit-section-main-title h1 {
+    margin: 0 0 14px;
+    color: #08195E;
+}
+
+
+.road-map.style-two .dreamit-section-content-text-inner p {
+    color: #616161;
 }
 
 /* 2957 */
