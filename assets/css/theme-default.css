@@ -177,6 +177,11 @@ a.stiky-logo img {
     padding-top: 110px
 }
 
+/* 166 */
+.pt-140 {
+    padding-top: 140px;
+}
+
 /* 207 */
 .cryptozen_menu li {
     padding-bottom: 48px;
@@ -231,6 +236,11 @@ a.stiky-logo img {
 /* 488 */
 .mt-50 {
     margin-top: 50px;
+}
+
+/* 522 */
+.mt-140 {
+    margin-top: 140px;
 }
 
 /* 719 */
