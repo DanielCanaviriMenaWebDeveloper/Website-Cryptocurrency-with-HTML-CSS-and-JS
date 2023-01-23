@@ -1458,6 +1458,28 @@ canvas#yourChart {
     left: 26px;
 }
 
+/* 2760 */
+.single-road-map-box.two {
+    border: 1px solid #034F9B;
+    padding: 22px 0 9px 26px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    transition: .5s;
+    position: relative;
+    left: 77px;
+}
+
+/* 2769 */
+.single-road-map-box.three {
+    border: 1px solid #034f9B;
+    padding: 22px 0 9px 26px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    transition: .5s;
+    position: relative;
+    left: 24px;
+}
+
 /* 2778 */
 .road-map-content h3 {
     font-size: 18px;
@@ -1495,6 +1517,48 @@ canvas#yourChart {
 .road-map .dreamit-section-main-title h1 {
     font-size: 40px;
     margin: 0 0 23px;
+}
+
+/* 2884 */
+.road-map a {
+    display: inline-block;
+    background: #0194FC;
+    color: #FFF;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 18px 37px;
+    transition: .5s;
+    position: relative;
+    z-index: 1;
+    border-radius: 30px;
+    font-family: "Inter";
+    font-weight: 400;
+    overflow: hidden;
+}
+
+/* 2899 */
+.road-map-btn:hover {
+    color: #37A3FE;
+}
+
+/* 2902 */
+.road-map-btn a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+/* 2906 */
+.road-map-btn a::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0;
+    transition: .5s;
+    z-index: -1;
+    background: #FFF;
+    border-radius: 30px;
 }
 
 /* 2942 */
