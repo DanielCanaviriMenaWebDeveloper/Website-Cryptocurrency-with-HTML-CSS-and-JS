@@ -4,6 +4,13 @@
     }
 }
 
+/* 34 */
+@media (min-width: 1365px) and (max-width: 1400px) {
+    .shape6 {
+        left: 48%;
+    }
+}
+
 /* 37 */
 @media (min-width: 1365px) and (max-width: 1400px) {
     .single-road-map-box.two {

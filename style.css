@@ -1513,10 +1513,95 @@ canvas#yourChart {
     top: 8px;
 }
 
+/* 2804 */
+.row.upper5 {
+    background: url(assets/images/map/bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 69px 16px 65px 45px;
+    border-radius: 20px;
+}
+
 /* 2812 */
 .road-map .dreamit-section-main-title h1 {
     font-size: 40px;
     margin: 0 0 23px;
+}
+
+/* 2816 */
+.single-road-icon-box {
+    margin-bottom: 27px;
+}
+
+/* 2819 */
+.road-icon {
+    height: 37px;
+    width: 37px;
+    line-height: 37px;
+    text-align: center;
+    background: #0094FD;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+/* 2828 */
+.road-icon.two {
+    background: #47DBA7;
+}
+
+/* 2834 */
+.road-icon.three {
+    background: #E231CA;
+}
+
+/* 2837 */
+.road-icon i {
+    color: #FFF;
+    font-size: 18px;
+}
+
+/* 2841 */
+.icon-content h4 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 600;
+}
+
+/* 2846 */
+.road-icon-btn {
+    margin-top: 40px;
+}
+
+/* 2861 */
+.road-icon-btn a::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0;
+    transition: .5s;
+    border-radius: 30px;
+    background: #FFF;
+    z-index: -1;
+    top: 0;
+    right: 0;
+}
+
+/* 2873 */
+.road-icon-btn a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+/* 2877 */
+.road-icon-btn a:hover {
+    color: #0194FC;
+}
+
+/* 2880 */
+.road-icon-btn a i {
+    font-size: 10px;
+    margin-left: 6px;
 }
 
 /* 2884 */
@@ -1537,7 +1622,7 @@ canvas#yourChart {
 }
 
 /* 2899 */
-.road-map-btn:hover {
+.road-map-btn :hover {
     color: #37A3FE;
 }
 
@@ -1559,6 +1644,33 @@ canvas#yourChart {
     z-index: -1;
     background: #FFF;
     border-radius: 30px;
+}
+
+/* 2919 */
+.road-thumb {
+    position: relative;
+    z-index: 1;
+    left: 25px;
+    top: 50px;
+}
+
+/* 2926 */
+.shape6 {
+    position: absolute;
+    top: 11%;
+    left: 50%;
+    right: 0;
+    margin: 0;
+    transform: translateX(-9%);
+    z-index: -1;
+}
+
+/* 2935 */
+.shape7 {
+    position: absolute;
+    bottom: -56px;
+    z-index: -1;
+    left: 10px;
 }
 
 /* 2942 */
