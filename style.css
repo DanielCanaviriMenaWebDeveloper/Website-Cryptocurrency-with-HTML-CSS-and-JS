@@ -2458,6 +2458,37 @@ ul.tabs li.active {
     background: url(assets/images/connect.jpg);
 }
 
+/* 3681 */
+.contact-section.style-two .info-social-address ul li a::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 0;
+  right: 0;
+  top: 0;
+  transition: .5s;
+  z-index: -1;
+  background: #37A3FE;
+  border-radius: 100%;
+}
+
+/* 3693 */
+.contact-section.style-two .info-socail-address ul li a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+/* 3697 */
+.contact-section.style-two .info-socail-address ul li a:hover {
+    color: #fff !important;
+}
+
+/* 3700 */
+.contact-section.style-two .form-control::placeholder {
+    color: #616161;
+    opacity: 1;
+}
+
 /* 3705 */
 .contact-section.style-three {
     margin-top: 0;
@@ -2875,6 +2906,21 @@ a.active::before {
     color: #08195F;
 }
 
+/* 4122 */
+.contact-section.style-two .info-content h4 {
+    color: #08195F;
+}
+
+/* 4125 */
+.contact-section.style-two .info-content p {
+    color: #626262;
+}
+
+/* 4128 */
+.contact-section.style-two .info-icon i {
+    box-shadow: 10px 0 42px rgb(0, 0, 0 / 15%);
+}
+
 /* 4131 */
 .contact-section.style-two .form-control {
     height: 55px;
@@ -2884,6 +2930,73 @@ a.active::before {
     border-radius: 5px;
     margin-bottom: 21px;
     color: #314D8E !important;
+}
+
+/* 4140 */
+.contact-section.style-two textarea.form-control {
+    height: 140px;
+    border-radius: 5px;
+}
+
+/* 4144 */
+.contact-section.style-two .right-side-info {
+    background: #F7F7F7;
+    padding: 45px 50px 42px 50px;
+    border-radius: 5px;
+    height: 100%;
+}
+
+/* 4150 */
+.contact-section.style-two .info-content-inner h4 {
+    font-size: 22px;
+    margin: 0 0 15px;
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+    color: #09175E;
+}
+
+/* 4158 */
+.contact-section.style-two .info-content-inner h4::before {
+    position: absolute;
+    content: "";
+    top: 16px;
+    right: -157px;
+    height: 1px;
+    width: 150px;
+    background: #09175E;
+}
+
+/* 4167 */
+.contact-section.style-two .info-social-address ul li a {
+    border: 1px solid #48DCA8;
+    color: #55B6FB;
+}
+
+/* 4171 */
+.contact-section.style-two .info-socail-address ul li a:hover {
+    border-color: #37A3FE;
+}
+
+/* 4174 */
+a.othrer1 {
+    color: #01EFFB !important;
+}
+
+/* 4177 */
+a.othrer2 {
+    color: #07689D !important;
+}
+
+/* 4180 */
+a.othrer3 {
+    color: #C60506 !important;
+}
+
+/* 4183 */
+.contact-section.style-two .single-info-box {
+    border-bottom: none;
+    margin-bottom: 17px;
 }
 
 /* 4189 */
