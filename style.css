@@ -2473,13 +2473,13 @@ ul.tabs li.active {
 }
 
 /* 3693 */
-.contact-section.style-two .info-socail-address ul li a:hover::after {
+.contact-section.style-two .info-social-address ul li a:hover::after {
     width: 100%;
     left: 0;
 }
 
 /* 3697 */
-.contact-section.style-two .info-socail-address ul li a:hover {
+.contact-section.style-two .info-social-address ul li a:hover {
     color: #fff !important;
 }
 
