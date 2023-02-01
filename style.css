@@ -506,6 +506,11 @@ div#countdown-two ul li p {
     font-weight: 600;
 }
 
+/* 1466 */
+.dreamit-section-title-two.text-center .dreamit-section-main-title h1 {
+    margin: 0 0 14px;
+}
+
 /* 1539 */
 .service-section.style-three {
     background: url(assets/images/new/service-bg.png);
@@ -675,6 +680,21 @@ table.dataTable tbody th,
 table.dataTable tbody td {
     padding: 8px 10px;
     font-family: 'Inter';
+}
+
+/* 1742 */
+.why-choose-section {
+    background: #FFFFFF;
+}
+
+/* 1745 */
+.why-choose-section .dreamit-section-content-text-inner p {
+    color: #616161;
+}
+
+/* 1792 */
+.why-choose-section .dreamit-section-title-two.text-center .dreamit-section-main-title h1 {
+    color: #081B5F;
 }
 
 /* 1795 */
