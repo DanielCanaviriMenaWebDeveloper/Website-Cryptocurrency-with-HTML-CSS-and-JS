@@ -692,6 +692,51 @@ table.dataTable tbody td {
     color: #616161;
 }
 
+/* 1748 */
+.single-why-choose-box {
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 10px 0 40px rgb(71, 219,167, 0.3);
+    background: #fff;
+    padding: 40px 0 19px;
+    border-radius: 4px;
+    transition: .5s;
+}
+
+/* 1757 */
+.single-why-choose-box:hover {
+    box-shadow: 10px 0 40px rgb(71, 219,167, 0.5);
+    transform: translateY(-10px);
+}
+
+/* 1761 */
+.why-choose-content h2 {
+    font-size: 22px;
+    margin: 24px 0 32px;
+    position: relative;
+    color: #091A60;
+    font-weight: 600;
+}
+
+/* 1768 */
+.why-choose-content h2::before {
+    position: absolute;
+    content: "";
+    top: 39px;
+    left: 0;
+    height: 2px;
+    width: 60px;
+    background: #1FD5A4;
+    right: 0;
+    margin: auto;
+}
+
+/* 1788 */
+.why-choose-content p {
+    color: #616161;
+    font-weight: 500;
+}
+
 /* 1792 */
 .why-choose-section .dreamit-section-title-two.text-center .dreamit-section-main-title h1 {
     color: #081B5F;
