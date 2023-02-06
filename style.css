@@ -3381,6 +3381,18 @@ a.othrer3 {
     color: #616161;
 }
 
+/* 4843 */
+.blog-details-title h2 {
+    font-size: 24px;
+    margin: 17px 0 16px;
+}
+
+/* 4850 */
+.blog-details-title.two h2 {
+    margin: 6px 0 17px;
+    color: #081A5F;
+}
+
 /* 4979 */
 .footer {
     background: url(assets/images/footer/footer.jpg);
