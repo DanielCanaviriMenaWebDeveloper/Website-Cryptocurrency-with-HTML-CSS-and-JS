@@ -3356,7 +3356,7 @@ a.othrer3 {
     background: #FEF3F8;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    box-shadow: 6px 5px 30px rgb(0, 0, 0 / 12%);
+    box-shadow: 6px 5px 30px rgb(0 0 0 / 12%);
 }
 
 /* 4704 */
@@ -3430,6 +3430,39 @@ a.othrer3 {
 .blog-grid-meta span {
     font-size: 17px;
     font-weight: 500;
+}
+
+/* 4758 */
+.pagination.text-center {
+    display: flex;
+    justify-content: center;
+}
+
+/* 4762 */
+.pagination ul li {
+    display: inline-block;
+}
+
+/* 4765 */
+.page-number ul li a {
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #37A3FE;
+    font-size: 22px;
+    transition: .5s;
+    color: #37A3FE;
+    margin-right: 11px;
+}
+
+/* 4778 */
+.page-number ul li a:hover {
+    color: #FFF;
+    background: #37A3FE;
+    border-color: #37A3FE;
 }
 
 /* 4785 */
