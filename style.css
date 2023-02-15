@@ -63,12 +63,12 @@
     text-align: left;
     top: 65px;
     transition: .5s;
-    /* opacity: 0; */
+    opacity: 0;
     left: 0;
-    /* visibility: hidden */
+    visibility: hidden;
     border-radius: 0;
     padding: 9px 14px 25px;
-    transform: scaleY(1);
+    transform: scaleY(0);
     transform-origin: center top 0;
     transition: all 0.4s ease-in-out;
 }
@@ -97,6 +97,15 @@
 /* 197 */
 .header-menu .sub-menu ul li a {
     padding: 0;
+}
+
+/* 200 */
+.cryptozen_menu ul li:hover .sub-menu{
+    opacity: 1;
+    visibility: visible;
+    z-index: 9;
+    left: 0;
+    transform: scaleY(1);
 }
 
 /* 207 */
