@@ -4015,6 +4015,12 @@ button.subscribe-button {
     top: 7px;
 }
 
+/* 5382 */
+.search-active .search-popup {
+    transform: translateY(0%);
+    margin-top: 0;
+}
+
 /* 5523 */
 .header-src-btn {
     display: inline-block;
