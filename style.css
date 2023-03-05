@@ -669,6 +669,28 @@ div#countdown-two ul li p {
     text-transform: uppercase;
 }
 
+/* 1012 */
+#countdown {
+    width: 465px;
+    height: 112px;
+    text-align: center;
+    border-radius: 5px;
+    margin: auto;
+    padding: 24px 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* 1383 */
+.row.upper {
+    background: #062661;
+    padding: 45px 19px 139px 0;
+    border-radius: 15px;
+}
+
 /* 1447 */
 .shape {
     position: absolute;
