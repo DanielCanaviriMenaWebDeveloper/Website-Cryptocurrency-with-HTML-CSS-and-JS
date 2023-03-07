@@ -684,11 +684,63 @@ div#countdown-two ul li p {
     right: 0;
 }
 
+/* 1026 */
+#countdown::before {
+    content: "";
+    width: 8px;
+    height: 65px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    display: block;
+    position: absolute;
+    top: 48px;
+    left: -10px;
+    background: red;
+}
+
+/* 1038 */
+#countdown::after {
+    content: "";
+    width: 8px;
+    height: 65px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    display: block;
+    position: absolute;
+    top: 48px;
+    right: -10px;
+    background: red;
+}
+
+/* 1050 */
+#countdown #tiles {
+    position: relative;
+    z-index: 1;
+}
+
+/* 1107 */
+.coundown-title h3 {
+    color: #FFF;
+    margin: 0 0 11px;
+    font-weight: 600;
+}
+
+/* 1116 */
+.coundown-title span {
+    color: #45DCA5;
+}
+
 /* 1383 */
 .row.upper {
     background: #062661;
     padding: 45px 19px 139px 0;
     border-radius: 15px;
+}
+
+/* 1388 */
+.coundown-title {
+    position: relative;
+    top: 26px;
 }
 
 /* 1447 */
