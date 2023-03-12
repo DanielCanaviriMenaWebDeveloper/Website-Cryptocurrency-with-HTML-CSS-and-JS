@@ -2035,5 +2035,37 @@
             </p>
         </div> -->
 
+        <!-- Start fTo Top  -->
+        <div class="scroll-area">
+            <div class="top-wrap">
+                <div class="go-top-btn-wraper">
+                    <div class="go-top go-top-button active">
+                        <i class="fas fa-arrow-up"></i>
+                        <i class="fas fa-arrow-up"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End fTo Top -->
+
+
+        <!-- Jquery JS -->
+        <script src="assets/js/vendor/jquery-3.2.1.min.js"></script>
+        <script>
+            $(window).on('scroll', function () {
+                var scrolled = $(window).scrollTop();
+                if (scrolled > 300) $('.go-top').addClass('active');
+                if (scrolled < 300) $('.go-top').removeClass('active');
+            });
+
+            $('.go-top').on('click', function () {
+                $("html, body").animate({
+                    scrollTop: "0"
+                }, 1200);
+            });
+        </script>
+
+        <!-- Theme JS -->
+        <script src="assets/js/theme.js"></script>
     </body>
 </html>

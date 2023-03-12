@@ -4096,6 +4096,28 @@ button.subscribe-button {
     outline: 0;
 }
 
+/* 5149 */
+/* Fotogramas clave de zoomBig */
+@keyframes zoomBig {
+    0% {
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 1;
+        border-width: 3px;
+    }
+    40% {
+        opacity: .5;
+        border-width: 2px;
+    }
+    65% {
+        border-width: 1px;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0;
+        border-width: 1px;
+    }
+}
+
 /* 5169 */
 .footer-copyright-content {
     float: right;
@@ -4124,6 +4146,170 @@ button.subscribe-button {
     font-size: 15px;
 }
 
+/* 5188 */
+.scroll-area {
+    position: relative;
+    z-index: 999;
+}
+
+/* 5192 */
+.scroll-area .go-top {
+    position: fixed;
+    cursor: pointer;
+    top: 0;
+    right: 30px;
+    color: #FFF;
+    background-image: -moz-linear-gradient(0deg, #d1651a 0%, #c1282a 100%);
+    background-image: -webkit-linear-gradient(0deg, #d1651a 0%, #c1282a 100%);
+    background-image: -ms-linear-gradient(0deg, #d1651a 0%, #c1282a 100%);
+    z-index: 9999;
+    width: 45px;
+    text-align: center;
+    height: 45px;
+    line-height: 42px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.9s ease-out 0s;
+    -moz-transition: all 0.9s ease-out 0s;
+    -ms-transition: all 0.9s ease-out 0s;
+    -o-transition: all 0.9s ease-out 0s;
+    transition: all 0.9s ease-out 0s;
+    border-radius: 10px;
+}
+
+/* 5238 */
+.scroll-area .go-top::before {
+    content: "";
+    border: 3px solid #37A3FE;
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    animation: zoomBig 3.25s linear infinite;
+    animation-delay: 0s;
+    -webkit-animation-delay: .75s;
+    animation-delay: .75s;
+}
+
+/* 5215 */
+.scroll-area .go-top i {
+    position: absolute;
+    top: 50%;
+    left: -4px;
+    right: 0;
+    margin: 0 auto;
+    font-size: 15px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
+}
+
+/* 5233 */
+.scroll-area .go-top i:last-child {
+    opacity: 0;
+    visibility: hidden;
+    top: 60%;
+}
+
+/* 5257 */
+.scroll-area .go-top:focus::before, .scroll-area .go-top:hover::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* 5261 */
+.scroll-area .go-top:focus i:first-child, .scroll-area .go-top:hover i:first-child {
+    opacity: 0;
+    top: 0;
+    visibility: hidden;
+}
+
+/* 5266 */
+.scroll-area .go-top:focus i:last-child, .scroll-area .go-top:hover i:last-child {
+    opacity: 1;
+    visibility: visible;
+    top: 50%;
+}
+
+/* 5271 */
+.scroll-area .go-top.active {
+    top: 95%;
+    -webkit-transform: translateY(-98%);
+    -moz-transform: translateY(-98%);
+    -ms-transform: translateY(-98%);
+    -o-transform: translateY(-98%);
+    transform: translateY(-98%);
+    opacity: 1;
+    visibility: visible;
+    border-radius: 0;
+    right: 50px;
+    border-radius: 100%;
+}
+
+/* 5284 */
+.top-wrap {
+    position: relative;
+}
+
+/* 5287 */
+.top-wrap .go-top-button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    top: 3px;
+    z-index: 1;
+    background-image: -moz-linear-gradient(0deg, #d1651a 0%, #c1282a 100%);
+    background: #37A3FE;
+    background-image: -ms-linear-gradient(0deg, #d1651a 0%, #c1282a 100%);
+}
+
+/* 5300 */
+.top-wrap .go-top-button i {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 4px;
+    color: #FFF;
+}
+
+/* 5306 */
+.top-wrap .go-top-button::after {
+    content: "";
+    border: 3px solid #37A3FE;
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    animation: zoomBig 3.25s linear infinite;
+        animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+/* 5322 */
+.top-wrap .go-top-button:hover {
+    background-color: #20D6A5;
+    color: #fff;
+}
 /* 5353 */
 .sidebar {
     display: inline-block;
@@ -4356,3 +4542,5 @@ button.subscribe-button {
         transform: rotate3d(0, 1, 0, 359deg);
     }
 }
+
+
